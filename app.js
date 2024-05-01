@@ -13,4 +13,6 @@
 
 console.log("server will here");
 console.log(new Date());
+console.log("edited in browser");
+
 console.log("added line 3");
