@@ -1,0 +1,12 @@
+{
+  "name": "cicdg12b",
+  "version": "1.0.0",
+  "description": "This is a project for NodeJS express app.\r We will add a server and run it using\r ci/cd pipeline.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
