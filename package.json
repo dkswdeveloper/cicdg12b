@@ -4,9 +4,14 @@
   "description": "This is a project for NodeJS express app.\r We will add a server and run it using\r ci/cd pipeline.",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 0"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pm2": "^5.3.1"
+  }
 }

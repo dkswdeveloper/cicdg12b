@@ -10,9 +10,15 @@
 // git add .
 // git commit -m "message to add file"
 // git push
-
+const app = require('express')();
 console.log("server will here");
 console.log(new Date());
 console.log("edited in browser");
 
 console.log("added line 3");
+app.get("/", (req, res) => {
+    res.json({message : "cicdg12b running"});
+})
+app.listen(7000, () => { 
+    console.log("server running on port 7000");
+})
