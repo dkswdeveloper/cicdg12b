@@ -17,7 +17,7 @@ console.log("edited in browser");
 
 console.log("added line 3");
 app.get("/", (req, res) => {
-    res.json({message : "cicdg12b running"});
+    res.json({message : "cicdg12b running after nginx settings"});
 })
 app.listen(7000, () => { 
     console.log("server running on port 7000");
